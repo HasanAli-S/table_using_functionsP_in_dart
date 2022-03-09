@@ -1,0 +1,11 @@
+void main(){
+ int a = 8;
+  table(a);
+  
+}
+int table(int num){
+  for(int i=1; i<=10; i++){
+    print("$num * $i = ${i*num}");
+  }
+  return 0;
+}
